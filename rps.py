@@ -65,6 +65,7 @@ def main():
     fhand.write(f"{statistics.losses}\n")
     fhand.write(f"{statistics.ties}\n")
     fhand.close()
+    print("Thank you for playing, come back soon.")
 
 # Now start the whole program
 main()
